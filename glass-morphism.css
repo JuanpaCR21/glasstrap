@@ -1,0 +1,557 @@
+/* Estilo para el efecto glassmorfismo */
+*{
+    font-family: Helvetica !important;
+}
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para botones con efecto glassmorfismo */
+.btn-glassmorphism{
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-glassmorphism:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+.btn-primary-glassmorphism:hover {
+  background: #007bff;
+}
+.btn-secondary-glassmorphism:hover {
+  background: #6c757d;
+}
+.btn-success-glassmorphism:hover {
+  background: #28a745;
+}
+.btn-danger-glassmorphism:hover {
+  background: #dc3545;
+}
+.btn-warning-glassmorphism:hover {
+  background: #ffc107;
+}
+.btn-info-glassmorphism:hover {
+  background: #17a2b8;
+}
+.btn-light-glassmorphism:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+.btn-dark-glassmorphism:hover {
+  background-color: #343a40;
+}
+
+/* Estilo para tarjetas con efecto glassmorfismo */
+.card-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el card header */
+.card-glassmorphism .card-header {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+  
+/* Estilo para el card body */
+.card-glassmorphism .card-body {
+    padding: 20px;
+}
+  
+  /* Estilo para el card footer */
+.card-glassmorphism .card-footer {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Estilo para formularios con efecto glassmorfismo */
+.form-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para inputs en formularios */
+.form-glassmorphism input[type="text"],
+.form-glassmorphism input[type="email"],
+.form-glassmorphism input[type="password"] {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el acordeón con efecto glassmorfismo */
+.accordion-glassmorphism {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para las tarjetas dentro del acordeón */
+  .accordion-glassmorphism .card {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    box-shadow: none;
+  }
+  
+  /* Estilo para los botones del acordeón */
+  .accordion-glassmorphism .card-header button {
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .accordion-glassmorphism .card-header button:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Estilo para el contenido del acordeón */
+  .accordion-glassmorphism .card-body {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+/* Estilo para alertas con efecto glassmorfismo */
+.alert-glassmorphism {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+  
+/* Estilo para alerta primaria */
+.alert-primary-glassmorphism {
+    background-color: #007bff;
+}
+  
+/* Estilo para alerta secundaria */
+.alert-secondary-glassmorphism {
+    background-color: #6c757d;
+}
+  
+  /* Estilo para alerta de éxito */
+  .alert-success-glassmorphism {
+    background-color: #28a745;
+  }
+  
+  /* Estilo para alerta de peligro */
+  .alert-danger-glassmorphism {
+    background-color: #dc3545;
+  }
+  
+  /* Estilo para alerta de advertencia */
+  .alert-warning-glassmorphism {
+    background-color: #ffc107;
+  }
+  
+  /* Estilo para alerta de información */
+  .alert-info-glassmorphism {
+    background-color: #17a2b8;
+  }
+  
+  /* Estilo para alerta clara */
+  .alert-light-glassmorphism {
+    background-color: #f8f9fa;
+    color: #000;
+  }
+  
+  /* Estilo para alerta oscura */
+  .alert-dark-glassmorphism {
+    background-color: #343a40;
+  }
+  
+  /* Estilo para el enlace en las alertas */
+  .alert-glassmorphism a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /* Estilo para el enlace en las alertas cuando está en hover */
+  .alert-glassmorphism a:hover {
+    text-decoration: none;
+  }
+/* Estilo para badges con efecto glassmorfismo */
+.badge-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+
+/* Estilo para badge primario */
+.badge-primary-glassmorphism {
+  background-color: #007bff;
+}
+
+/* Estilo para badge secundario */
+.badge-secondary-glassmorphism {
+  background-color: #6c757d;
+}
+
+/* Estilo para badge de éxito */
+.badge-success-glassmorphism {
+  background-color: #28a745;
+}
+
+/* Estilo para badge de peligro */
+.badge-danger-glassmorphism {
+  background-color: #dc3545;
+}
+
+/* Estilo para badge de advertencia */
+.badge-warning-glassmorphism {
+  background-color: #ffc107;
+}
+
+/* Estilo para badge de información */
+.badge-info-glassmorphism {
+  background-color: #17a2b8;
+}
+
+/* Estilo para badge claro */
+.badge-light-glassmorphism {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+/* Estilo para badge oscuro */
+.badge-dark-glassmorphism {
+  background-color: #343a40;
+}
+
+/* Estilo para el menú de los dropdowns con efecto glassmorfismo */
+.dropdown-menu-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los botones de los dropdowns con efecto glassmorfismo */
+.dropdown-toggle-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+
+/* Estilo para los botones de los dropdowns cuando están en hover */
+.dropdown-toggle-glassmorphism:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Estilo para los ítems del menú de los dropdowns */
+.dropdown-menu-glassmorphism .dropdown-item {
+  background: transparent;
+  color: #fff;
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+
+/* Estilo para los ítems del menú de los dropdowns cuando están en hover */
+.dropdown-menu-glassmorphism .dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+/* Estilo para el List Group con efecto glassmorfismo */
+.list-group-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+
+/* Estilo para los elementos del List Group */
+.list-group-glassmorphism .list-group-item {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+
+/* Estilo para los elementos del List Group cuando están en hover */
+.list-group-glassmorphism .list-group-item:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Estilo para el fondo del modal (fondo semi-transparente) */
+.modal-backdrop {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Estilo para el modal con efecto glassmorfismo */
+.modal-content-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+
+/* Estilo para el encabezado del modal */
+.modal-header-glassmorphism {
+  border-bottom: none; /* Elimina el borde inferior predeterminado del encabezado */
+  padding: 0; /* Elimina el padding predeterminado */
+  background: transparent; /* Hace el fondo transparente */
+}
+
+/* Estilo para el cuerpo del modal */
+.modal-body-glassmorphism {
+  background: transparent; /* Hace el fondo del cuerpo transparente */
+}
+
+/* Estilo para el pie del modal */
+.modal-footer-glassmorphism {
+  border-top: none; /* Elimina el borde superior predeterminado del pie */
+  padding: 0; /* Elimina el padding predeterminado */
+  background: transparent; /* Hace el fondo transparente */
+}
+
+/* Estilo para el botón de cierre (x) del modal */
+.close-modal-button {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Estilo para el botón de cierre del modal cuando está en hover */
+.close-modal-button:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* Estilo para el Navbar con efecto glassmorfismo */
+.navbar-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+
+/* Estilo para los enlaces del Navbar */
+.navbar-glassmorphism .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Estilo para los enlaces del Navbar cuando están en hover */
+.navbar-glassmorphism .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Estilo para el botón de menú en el Navbar (para dispositivos móviles) */
+.navbar-toggler-icon-glassmorphism {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+/* Estilo para el botón de menú en el Navbar (para dispositivos móviles) cuando está en hover */
+.navbar-toggler-icon-glassmorphism:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Estilo para las pestañas (tabs) con efecto glassmorfismo */
+.nav-tabs-glassmorphism .nav-item.nav-link {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+ 
+
+/* Estilo para el contenido de las pestañas (tabs) */
+.tab-content-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el texto dentro de las pestañas (tabs) */
+.nav-tabs-glassmorphism .nav-link {
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+.nav-tabs-glassmorphism .nav-item.nav-link.active {
+  background: transparent !important; /* Fondo transparente cuando está activo */
+  border: none; /* Elimina el borde cuando está activo */
+  color: #000; /* Cambia el color de texto para pestañas activas si es necesario */
+}
+
+/* Estilo para el fondo del menú offcanvas (fondo semi-transparente) */
+.offcanvas-backdrop {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Estilo para el menú offcanvas con efecto glassmorfismo */
+.offcanvas-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px; /* Ancho del menú offcanvas, ajusta según tus necesidades */
+  backdrop-filter: blur(10px);
+  box-shadow: -4px 0px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+  transform: translateX(-100%); /* Mueve el menú fuera de la pantalla por defecto */
+  transition: transform 0.3s ease;
+}
+
+/* Estilo para el contenido del menú offcanvas */
+.offcanvas-content {
+  padding: 10px;
+}
+
+/* Estilo para el botón de cierre (x) del menú offcanvas */
+.close-offcanvas-button {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Estilo para el botón de cierre del menú offcanvas cuando está en hover */
+.close-offcanvas-button:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Estilo para los popovers con efecto glassmorfismo */
+.popover-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 10px 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+
+/* Estilo para la flecha del popover */
+.popover-glassmorphism .arrow::before {
+  border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Estilo para el título del popover */
+.popover-glassmorphism .popover-header {
+  background: transparent;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+/* Estilo para el contenido del popover */
+.popover-glassmorphism .popover-body {
+  background: transparent;
+}
+
+/* Estilo para las barras de progreso con efecto glassmorfismo y colores de Bootstrap */
+.progress-bar-glassmorphism {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  height: 20px; /* Altura de la barra de progreso, ajusta según tus necesidades */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente si es necesario */
+}
+
+/* Estilo para el texto dentro de las barras de progreso */
+.progress-bar-glassmorphism .progress-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Estilo para el porcentaje de progreso */
+.progress-bar-glassmorphism .progress-percentage {
+  font-size: 12px;
+}
+
+/* Estilo para la barra de progreso primaria (cambia el color según tus preferencias) */
+.progress-bar-glassmorphism.progress-bar-primary {
+  background: rgba(40, 116, 166, 0.9); /* Color primario de Bootstrap */
+}
+
+/* Estilo para la barra de progreso secundaria (cambia el color según tus preferencias) */
+.progress-bar-glassmorphism.progress-bar-secondary {
+  background: rgba(108, 117, 125, 0.9); /* Color secundario de Bootstrap */
+}
+
+/* Estilo para la barra de progreso de peligro (cambia el color según tus preferencias) */
+.progress-bar-glassmorphism.progress-bar-danger {
+  background: rgba(220, 53, 69, 0.9); /* Color de peligro de Bootstrap */
+}
+
+/* Estilo para la barra de progreso de éxito (cambia el color según tus preferencias) */
+.progress-bar-glassmorphism.progress-bar-success {
+  background: rgba(40, 167, 69, 0.9); /* Color de éxito de Bootstrap */
+}
+
+/* Estilo para la barra de progreso de advertencia (cambia el color según tus preferencias) */
+.progress-bar-glassmorphism.progress-bar-warning {
+  background: rgba(255, 193, 7, 0.9); /* Color de advertencia de Bootstrap */
+}
